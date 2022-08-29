@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="cxn_client_info" max_length="40" name="x_snc_cxnapptest_cxn_client_info" sizeclass="0" type="collection">
+    <element label="cxn_client_info" max_length="40" name="x_snc_cxnapptest_cxn_client_info" type="collection">
         <element attributes="edge_encryption_enabled=true" label="Address" max_length="4000" name="address" type="journal"/>
+        <element label="Date of Birth" max_length="40" name="date_of_birth" type="glide_date_time"/>
         <element attributes="edge_encryption_enabled=true" label="First Name" max_length="40" name="first_name" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Last Name" max_length="60" name="last_name" type="string"/>
-        <element attributes="edge_encryption_enabled=true" label="Licence " max_length="40" name="licence" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Licence" max_length="40" name="licence" type="string"/>
         <element label="middle name" max_length="40" name="middle_name" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Mobile" max_length="40" name="mobile" type="string"/>
         <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
