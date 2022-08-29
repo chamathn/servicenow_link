@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="cxn base table" max_length="40" name="x_snc_cxnapptest_cxn_base_table" type="collection">
-        <element label="first name" max_length="50" name="first_name" type="string"/>
-        <element label="full name" max_length="200" name="full_name" type="string"/>
-        <element label="middle name" max_length="50" name="middle_name" type="string"/>
-        <element label="surname" max_length="100" name="surname" type="string"/>
-    </element>
-</database>
